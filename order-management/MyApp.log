@@ -1,0 +1,55 @@
+2021-Mar-17 20:52:11 [main] INFO  c.s.m.o.OrderManagementApplication                 - No active profile set, falling back to default profiles: default
+2021-Mar-17 20:52:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-Mar-17 20:52:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 1170 ms. Found 1 JPA repository interfaces.
+2021-Mar-17 20:52:16 [main] INFO  o.s.c.c.s.GenericScope                             - BeanFactory id=0bc46f3d-e3fb-3a0b-b2db-e3eeab5c45f2
+2021-Mar-17 20:52:16 [main] INFO  o.s.c.a.ConfigurationClassEnhancer                 - @Bean method FunctionConfiguration.po is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-Mar-17 20:52:16 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-Mar-17 20:52:16 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2021-Mar-17 20:52:16 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-Mar-17 20:52:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-Mar-17 20:52:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-Mar-17 20:52:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-Mar-17 20:52:18 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8091 (http)
+2021-Mar-17 20:52:18 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8091"]
+2021-Mar-17 20:52:18 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2021-Mar-17 20:52:18 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-Mar-17 20:52:18 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2021-Mar-17 20:52:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 6666 ms
+2021-Mar-17 20:52:18 [main] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-Mar-17 20:52:18 [main] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-Mar-17 20:52:19 [main] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-Mar-17 20:52:19 [main] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2021-Mar-17 20:52:19 [main] WARN  c.z.h.u.DriverDataSource                           - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-Mar-17 20:52:19 [main] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2021-Mar-17 20:52:19 [main] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2021-Mar-17 20:52:19 [main] WARN  o.h.d.Oracle9Dialect                               - HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2021-Mar-17 20:52:19 [main] WARN  o.h.d.OracleDialect                                - HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2021-Mar-17 20:52:21 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-Mar-17 20:52:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-Mar-17 20:52:22 [main] WARN  c.n.c.s.URLConfigurationSource                     - No URLs will be polled as dynamic configuration sources.
+2021-Mar-17 20:52:22 [main] INFO  c.n.c.s.URLConfigurationSource                     - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-Mar-17 20:52:22 [main] WARN  c.n.c.s.URLConfigurationSource                     - No URLs will be polled as dynamic configuration sources.
+2021-Mar-17 20:52:22 [main] INFO  c.n.c.s.URLConfigurationSource                     - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-Mar-17 20:52:22 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-Mar-17 20:52:22 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor                     - Initializing ExecutorService 'applicationTaskExecutor'
+2021-Mar-17 20:52:24 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler                    - Initializing ExecutorService 'taskScheduler'
+2021-Mar-17 20:52:24 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2021-Mar-17 20:52:24 [main] INFO  o.s.i.e.EventDrivenConsumer                        - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-Mar-17 20:52:24 [main] INFO  o.s.i.c.PublishSubscribeChannel                    - Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-Mar-17 20:52:24 [main] INFO  o.s.i.e.EventDrivenConsumer                        - started bean '_org.springframework.integration.errorLogger'
+2021-Mar-17 20:52:24 [main] INFO  o.s.c.s.b.DefaultBinderFactory                     - Creating binder: rabbit
+2021-Mar-17 20:52:25 [main] INFO  o.s.c.s.b.DefaultBinderFactory                     - Caching the binder: rabbit
+2021-Mar-17 20:52:25 [main] INFO  o.s.c.s.b.DefaultBinderFactory                     - Retrieving cached binder: rabbit
+2021-Mar-17 20:52:25 [main] INFO  o.s.a.r.c.CachingConnectionFactory                 - Attempting to connect to: [localhost:5672]
+2021-Mar-17 20:52:29 [main] INFO  o.s.c.s.m.DirectWithAttributesChannel              - Channel 'application-1.hystrixStreamOutput' has 1 subscriber(s).
+2021-Mar-17 20:52:29 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8091"]
+2021-Mar-17 20:52:29 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8091 (http) with context path ''
+2021-Mar-17 20:52:29 [main] INFO  c.s.m.o.OrderManagementApplication                 - Started OrderManagementApplication in 20.506 seconds (JVM running for 22.74)
+2021-Mar-17 20:53:03 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-Mar-17 20:53:03 [http-nio-8091-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+2021-Mar-17 20:53:03 [http-nio-8091-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 3 ms
+2021-Mar-17 20:53:04 [hystrix-MyController-1] INFO  c.s.m.o.c.MyController                             - entery into orders
+2021-Mar-17 20:53:05 [task-scheduler-1] INFO  o.s.a.r.c.CachingConnectionFactory                 - Attempting to connect to: [localhost:5672]
+2021-Mar-17 20:53:09 [task-scheduler-1] INFO  o.s.a.r.c.CachingConnectionFactory                 - Attempting to connect to: [localhost:5672]
+2021-Mar-17 20:53:14 [task-scheduler-1] INFO  o.s.a.r.c.CachingConnectionFactory                 - Attempting to connect to: [localhost:5672]
+2021-Mar-17 20:53:18 [task-scheduler-1] INFO  o.s.a.r.c.CachingConnectionFactory                 - Attempting to connect to: [localhost:5672]

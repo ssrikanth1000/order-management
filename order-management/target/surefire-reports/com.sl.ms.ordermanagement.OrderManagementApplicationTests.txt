@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sl.ms.ordermanagement.OrderManagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.397 s - in com.sl.ms.ordermanagement.OrderManagementApplicationTests
